@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { BasicForm } from './redux-form/basic';
+import { FormReader } from './redux-form/reader';
 
 const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -18,6 +19,8 @@ const App = () => {
         >
           Learn React
         </a>
+      <BasicForm />
+      <FormReader />
       </header>
     </div>
   );
