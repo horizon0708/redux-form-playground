@@ -8,7 +8,7 @@ type Props = {
 
 const form: React.FC<InjectedFormProps<ItemTask> & Props> = props => {
   const { handleSubmit, pristine, submitting }  = props
-
+  console.log("calc?")
   return <form onSubmit={handleSubmit}>
     <div>
       <label>title</label>

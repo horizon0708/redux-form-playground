@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { BasicForm } from './redux-form/basic';
-import { FormReader } from './redux-form/reader';
+import { PersonForm, TestReader } from './redux-form/test';
 
 const App = () => {
   return (
@@ -19,8 +19,8 @@ const App = () => {
         >
           Learn React
         </a>
-      <BasicForm />
-      <FormReader />
+      <PersonForm /> 
+      <TestReader />
       </header>
     </div>
   );
